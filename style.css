@@ -1,0 +1,63 @@
+nav{
+    background: #BBCDD6;
+    width: 100%;	
+    margin: 0;
+    padding: 0;
+   
+}
+nav ul {
+    margin-top:-55px;
+    padding: 0;
+    max-width: 500px;
+    float:right;
+
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 20px;
+    padding: 0;
+    font-family: Quicksand;
+
+}
+nav li a{
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.logo{
+    max-width:100px;
+}
+.presentation{
+
+}
+nav h1{
+    margin-right: 660px;
+    float:right;
+    font-family: Fredoka One;
+    font-size: 40px;
+    margin-top:30px;
+    font-weight: bold;
+    color: #5C6668;
+    letter-spacing: 5px;
+}
+nav>h2{
+    margin-right: 600px;
+    float:right;
+    font-family: Quicksand;
+    font-size: 20px;
+    margin-top:-30px;
+}
+h1{
+   font-family:Quicksand;
+   font-size:30px; 
+}
+p{
+    margin:3%;
+    text-align:justify;
+}
+section h1{
+    margin-top:40px;
+    margin-bottom:20px;
+    text-align: center;
+}
