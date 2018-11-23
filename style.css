@@ -55,3 +55,11 @@ section h1{
 .img_drogue{
     max-width: 100%;
 }
+.effet{
+    display:block;
+    background-color:#DB9B98;
+}
+.effet > p{
+    padding:20%;
+    width:70%
+}
