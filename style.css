@@ -1,46 +1,49 @@
 nav{
     background: #BBCDD6;
-    width: 100%;	 
-}
+    width: 100%;  
+    padding-bottom: 5%;
+} /* fond header */
 
 nav li{
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 2%; /* espacement texte menu */
     font-family: Quicksand;
+    float:right;
 
-}
+} /* menu en ligne */
 nav li a{
-    color:white;
+    color:black;
     text-decoration: none;
-    font-size: 20px;
-}
+    font-size: 100%;
+} /* menu */ 
 .logo{
-    max-width:100px;
-}
+    max-width:10%;
+} /* taille logo */
 nav h1{
-    text-align: center;
-    font-family: Fredoka One;
-    font-size: 40px;
+    font-family: Comfortaa;
+    font-size: 200%;
     font-weight: bold;
     color: #5C6668;
-    letter-spacing: 5px;
-}
-nav>h2{
-    margin-right: 600px;
-    float:right;
+    margin-top: 3%;
+} /* titre Cerebrum */
+#title{
+    text-align: center;
+    margin-top: -12%;
+} /* alignement titres header */
+nav h2{
     font-family: Quicksand;
-    font-size: 20px;
-    margin-top:-30px;
-}
-h1{
-   font-family:Quicksand;
-   font-size:30px; 
-   text-align: center;
-}
+    font-size: 100%;
+
+
+
+
+ /*titre 2 header */
+/*
 p{
     margin:3%;
     text-align:justify;
-}
+} /*textes*/
+/*
 section h1{
     margin-top:40px;
     margin-bottom:20px;
@@ -50,8 +53,12 @@ section h1{
     padding:5%;
     background-color: #B9CDD6;
     font-family: Quicksand;
-
-}
+} /*paragraphe drogue*/
+/*
 .img_drogue{
     max-width: 100%;
+} /* image drogue */
+/*
+.presentation{
+    max-width: 10px;
 }
