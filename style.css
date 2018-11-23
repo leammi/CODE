@@ -6,7 +6,7 @@ nav{
    
 }
 nav ul {
-    margin-top:-55px;
+    margin-top:-10%;
     padding: 0;
     max-width: 500px;
     float:right;
@@ -60,4 +60,13 @@ section h1{
     margin-top:40px;
     margin-bottom:20px;
     text-align: center;
+}
+.drogue { 
+    padding:5%;
+    background-color: #B9CDD6;
+    font-family: Quicksand;
+
+}
+.img_drogue{
+    max-width: 100%;
 }
