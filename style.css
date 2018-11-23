@@ -32,7 +32,7 @@ nav>h2{
     font-size: 20px;
     margin-top:-30px;
 }
-h1{
+h2{
    font-family:Quicksand;
    font-size:30px; 
    text-align: center;
@@ -41,10 +41,17 @@ p{
     margin:3%;
     text-align:justify;
 }
-section h1{
+section h2{
     margin-top:40px;
     margin-bottom:20px;
     text-align: center;
+}
+.Musique{
+	background-color: #9E7174;
+	font-family: Quicksand;
+}
+.conteneurmusique{
+	display: flex;
 }
 .drogue { 
     padding:5%;
