@@ -10,16 +10,23 @@ nav li{
     margin-right: 2%; /* espacement texte menu */
     font-family: Quicksand;
     float: right;
+    
 
 } /* menu en ligne */
 nav li a{
-    color: #5C6668;;
+    color: #5C6668;
     text-decoration: none;
     font-size: 100%;
     font-weight: bold;
+    
 } /* menu */ 
 .logo{
-    max-width:10%;
+    display:block;
+    position: fixed;
+    max-width:20%;
+    top:-2%;
+    margin-left: 0%;
+    float: left;
 } /* taille logo */
 nav h1{
     font-family: Fredoka one;
@@ -30,7 +37,7 @@ nav h1{
 } /* titre Cerebrum */
 #title{
     text-align: center;
-    margin-top: -12%;
+    margin-top: -2%;
 } /* alignement titres header */
 nav h2{
     font-family: Quicksand;
