@@ -1,26 +1,29 @@
 nav{
+    position:fixed;
     background: #BBCDD6;
-    width: 100%;	 
+    width: 100%;
+    	 
 }
 
 nav li{
     display: inline-block;
     margin-right: 20px;
     font-family: Quicksand;
-
 }
 nav li a{
-    color:white;
+    display: block;
+    position: fixed;
+    color:black;
     text-decoration: none;
     font-size: 20px;
 }
 .logo{
-    max-width:100px;
+    max-width:7%;
 }
 nav h1{
     text-align: center;
     font-family: Fredoka One;
-    font-size: 40px;
+    font-size: 60px;
     font-weight: bold;
     color: #5C6668;
     letter-spacing: 5px;
@@ -33,8 +36,10 @@ nav>h2{
     margin-top:-30px;
 }
 h1{
+    display :block;
    font-family:Quicksand;
-   font-size:30px; 
+   font-size:30px;
+   margin-top: 0%;
    text-align: center;
 }
 p{
@@ -42,8 +47,6 @@ p{
     text-align:justify;
 }
 section h1{
-    margin-top:40px;
-    margin-bottom:20px;
     text-align: center;
 }
 .drogue { 
@@ -57,9 +60,12 @@ section h1{
 }
 .effet{
     display:block;
+    padding:5%;
     background-color:#DB9B98;
 }
-.effet > p{
-    padding:20%;
-    width:70%
+.effet p{
+    padding:5%;
+    width:70%;
+    font-family: Quicksand;
+
 }
