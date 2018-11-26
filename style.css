@@ -86,11 +86,24 @@ section h2{
     margin-bottom:20px;
     text-align: center;
 }
-
+/*SECTION INTRO */
+.intro{
+    display: block;
+    position: absolute;
+    background-color: white;
+    top: 15%;
+    height: 85%;
+    width: 100%;
+}
 /*SECTION GREG*/
 .Musique{
 	background-color: #9E7174;
-	font-family: Quicksand;
+    font-family: Quicksand;
+    display: block;
+    position: absolute;
+    top: 100%;
+    height: 85%;
+    width: 100%;
 }
 .conteneurmusique{
 	display: flex;
@@ -101,6 +114,12 @@ section h2{
     padding:5%;
     background-color: #B9CDD6;
     font-family: Quicksand;
+    display: block;
+    position: absolute;
+    background-color:#DB9B98;
+    top: 185%;
+    height: 85%;
+    width: 100%;
 } /*paragraphe drogue*/
 
 .img_drogue{
@@ -114,16 +133,16 @@ section h2{
 /*SECTION LEA*/
 .effet{
     display: block;
-    position:absolute;
+    position: absolute;
     background-color:#DB9B98;
-    top:280%;
-    height:85%;
-    width:100%;
+    top: 270%;
+    height: 85%;
+    width: 100%;
 }
 .cerveaueffet{
-    max-width: 20%;
+    max-width: 30%;
 }
-.effet h1{
+.effet h2{
 
 }
 .effet p {
