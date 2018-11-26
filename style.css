@@ -93,17 +93,19 @@ section h2{
     padding:1%;
     background-color: #B9CDD6;
     font-family: Quicksand;
+    background-image: url(drogue.jpg) opacity:0.5;
+    
 } /*paragraphe drogue*/
 
-.img_drogue{
-    max-width: 30%;
+
+.cerveaueffet1{
+    max-width: 20%;
     float:right;
     padding-right:3%;
 } /* image drogue */
 
 .drogue p {
     width: 75%;
-
 }
 
 .drogue ol {
