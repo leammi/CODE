@@ -61,10 +61,7 @@ a:hover{
 }
  /*titre 2 header */
 
-p{
-    margin:3%;
-    text-align:justify;
-} /*textes*/
+
 
 section h1{
     font-size: 20px;
@@ -111,24 +108,20 @@ section h2{
 
 /*SECTION SEB*/
 .drogue { 
-    padding:5%;
+    padding:1%;
     background-color: #B9CDD6;
     font-family: Quicksand;
     display: block;
     position: absolute;
-    background-color:#DB9B98;
     top: 185%;
     height: 85%;
-    width: 100%;
+    width: 98%;
 } /*paragraphe drogue*/
 
 .img_drogue{
     max-width: 20%;
 } /* image drogue */
 
-.presentation{
-    max-width: 10px;
-}
 
 /*SECTION LEA*/
 .effet{
