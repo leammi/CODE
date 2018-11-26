@@ -91,11 +91,20 @@ section h2{
 .Musique{
 	background-color: #9E7174;
 	font-family: Quicksand;
+	display:block;
+	position: absolute;
+	top:40%;
+	height:85%;
+    width:100%;	
 }
 
 .img_musique {
-	max-width: 36%;
-	max-height: 36%,
+	padding:4px;
+    text-align: center;
+	float: left;
+	max-width: 25%;
+	max-height: 25%;
+	margin-left: 3%;
 }
 
 /*SECTION SEB*/
