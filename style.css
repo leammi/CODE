@@ -50,9 +50,12 @@ section h2{
 	background-color: #9E7174;
 	font-family: Quicksand;
 }
-.conteneurmusique{
-	display: flex;
+
+.img_musique {
+	max-width: 36%;
+	max-height: 36%,
 }
+
 .drogue { 
     padding:5%;
     background-color: #B9CDD6;
