@@ -1,8 +1,22 @@
+.logo{
+    display:block;
+    position: fixed;
+    max-width:20%;
+    top:-2%;
+    margin-left: -5%;
+    z-index: 2
+    /*information logo*/
+}
 nav{
     position:fixed;
     background: #BBCDD6;
     width: 100%;  
     padding-bottom: 1%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    
 } /* fond header */
 
 nav li{
@@ -20,14 +34,7 @@ nav li a{
     font-weight: bold;
     
 } /* menu */ 
-.logo{
-    display:block;
-    position: fixed;
-    max-width:20%;
-    top:-2%;
-    margin-left: 0%;
-    float: left;
-} /* taille logo */
+
 nav h1{
     font-family: Fredoka one;
     font-size: 300%;
@@ -42,17 +49,23 @@ nav h1{
 nav h2{
     font-family: Quicksand;
     font-size: 100%;
-
+}
+a:hover{
+    display: block;
+    /*background-color: #9E7174;*/
+    color:white;
+}
 
 
 
  /*titre 2 header */
-/*
+
 p{
+
     margin:3%;
     text-align:justify;
 } /*textes*/
-/*
+
 section h1{
     font-size: 20px;
     margin-top:-30px;
@@ -84,11 +97,11 @@ section h2{
     background-color: #B9CDD6;
     font-family: Quicksand;
 } /*paragraphe drogue*/
-/*
+
 .img_drogue{
     max-width: 100%;
 } /* image drogue */
-/*
+
 .presentation{
     max-width: 10px;
 }
