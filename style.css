@@ -136,6 +136,10 @@ section h2{
     max-width: 30%;
 }
 
+.midnightHeader.white {
+    background: white;
+    color: black;
+  }
 .effet p {
     font-family: Quicksand;
     display: block;
