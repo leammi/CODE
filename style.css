@@ -86,11 +86,31 @@ p{
     text-align:justify;
     line-height: 1.5em;
 }
+ul{
+    line-height: 1.5em;
+    margin-left:3%;
+    margin-top: -2%;
+    margin-bottom: -3%;
+}
 section h2{
     margin-top:40px;
     margin-bottom:20px;
     text-align: center;
 }
+
+.midnightHeader.default {
+  background: none;
+  color: black;
+}
+.midnightHeader.white {
+  background: white;
+  color: black;
+}
+.midnightHeader.blue {
+  background: blue;
+  color: white;
+}
+
 /*SECTION INTRO */
 .intro{
     display: block;
@@ -117,11 +137,15 @@ section h2{
     display: block;
     position: absolute;
     top: 185%;
+    height: 90%;
+    width: 100%;
 } /*paragraphe drogue*/
 
 .img_drogue{
     max-width: 20%;
+    float:right;
 } /* image drogue */
+
 
 
 /*SECTION LEA*/
