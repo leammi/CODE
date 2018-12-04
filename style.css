@@ -26,7 +26,12 @@ nav{
     z-index: 2;
     overflow: hidden;
     
-} /* fond header */
+} /*les ancres*/
+#test{
+	
+}
+
+/* fond header */
 
 nav li{
     display: inline-block;
@@ -106,6 +111,7 @@ section h2{
     display: block;
     position: absolute;
     top: 100%;
+	padding-top:100px;
 }
 
 .imgpartmusique {
@@ -170,7 +176,8 @@ section h2{
     font-family: Quicksand;
     display: block;
     position: absolute;
-    top: 185%;
+    top: 200%;
+	padding-top:100px;
 } /*paragraphe drogue*/
 
 .img_drogue{
@@ -183,7 +190,7 @@ section h2{
     display: block;
     position: absolute;
     background-color:#DB9B98;
-    top: 270%;
+    top: 300%;
 }
 .cerveaueffet{
     max-width: 30%;
