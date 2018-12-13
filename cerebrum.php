@@ -88,4 +88,3 @@
     <img class="cerveaueffet" src="perso logo droite.svg" alt="logo cerveau">
     </section>
 </body>
-</script>
