@@ -33,7 +33,14 @@
     </header>
     <section class="intro">
         <h2 id="Introduction">Introduction</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent molestie vestibulum erat ac rhoncus. Aenean nunc risus, accumsan nec ipsum et, convallis sollicitudin dui. Proin dictum quam a semper malesuada. Etiam porta sit amet risus quis porta. Nulla facilisi. Cras at interdum ante. Ut gravida pharetra ligula vitae malesuada. </p>
+        <p>Bonjour, je suis cerebro, la mascotte de cerebrum, l’agence de vulgarisation d’articles scientifiques sur le cerveau composée de Léa, Sébastien et Grégory.Trois thématiques vont être abordées, l’impact de la musique sur le cerveau, les effets de la drogue sur le cerveau et comment le cerveau perçoit les illusions.
+        </p>
+    <div class="slider">
+        <figure>
+
+        </figure>
+    </div>
+
     </section>
     <section id="top_mus" class="Musique">
         <h2 id="titre_musique">La musique, oublier la fatigue et libérer la dopamine</h2>
@@ -54,10 +61,7 @@
         Pour finir le sommeil, la relaxation et la créativité peuvent être impacter de manière positive par de la musique, une musique douce instrumentale ou chanté diminue l’état d’anxiété, améliore l’humeur et facilite l’endormissement.
         </br>
 		</p>
-		</div>
-		</div>
     </section>
-
 
     <section id="top_dro" class="drogue">
         <h2 id="drogue">Les effets de la drogue dans le cerveau</h2>
@@ -72,6 +76,7 @@
         </ul>
         </br>
         <p>
+        <p>
         Malgré tous ces modes d’actions différents, lorsque l’on consomme une drogue, elle augmente la libération de dopamine. La récompense est traduite par une sensation positive, soit une sensation de plaisir que l’être humaine ressent de manière naturelle. Comme l’action de se nourrir ou d’effectuer un acte sexuel. Cependant, lorsqu’il consomme cette drogue, il utilise le même circuit de récompense reproduisant une sensation de plaisir, mais une fausse récompense qui n’est pas bénéfique pour l’individu car elle détruit l’équilibre naturelle de ce circuit. </br>
         Cette augmentation non naturelle de dopamine dans le cerveau peut induire une diminution du nombre de récepteurs à dopamine, donc en absence de la drogue, la quantité de dopamine redevenue normale ne sera donc plus suffisante pour recréer cette sensation de plaisir. </br>
         D’autre part, lorsque l’on montre une simple image ou souvenir à une personne ayant déjà consommé une drogue, certaines zones du cerveau vont s’activer. Ces zones sont le circuit de la récompense qui va stimuler les neurones dopaminergiques, ce qui va créer une anticipation du plaisir et va repousser la personne à consommer à nouveau pour atteindre cette sensation de bonheur. On voit donc ici à quel point la mémoire de l’environnement de la prise de drogue est ancrée dans l’inconscient d’une personne dépendante.</p>
@@ -83,4 +88,3 @@
     <img class="cerveaueffet" src="perso logo droite.svg" alt="logo cerveau">
     </section>
 </body>
-</script>
