@@ -112,16 +112,21 @@ section h2{
     top: 15%;
 }
 
-#carrousel{
-    position:relative;
-    height:200px;
-    width:700px;
-    margin:auto;
+div#slider{
+    width:80%;
+    max-width: 1000px;
 }
-#carrousel ul li{
-    position:absolute;
-    top:0;
-    left:0;
+div#slider figure{
+    position: relative;
+    width: 300%;
+    margin: 0;
+    padding: 0;
+}
+
+div#slider figure img{
+    width: 33%;
+    height: auto;
+    float: left;
 }
 
 /*SECTION GREG*/
@@ -220,7 +225,7 @@ section h2{
 	margin-top:-2%;
 }
 
-.drogue li {
+.drogue-li {
     font-size: 90%;
     margin-right: 10%;
 }
@@ -252,10 +257,14 @@ section h2{
   }
   .midnightHeader.musique {
     background: white;
-    color: blue;
+    color: #000;
   }
-  .midnightHeader.blue {
-    background: blue;
+  .midnightHeader.intro {
+    background: #B9CDD6;
+    color: #000;
+  }
+  .midnightHeader.drogue {
+    background: #DB9B98;
     color: white;
   }
 
