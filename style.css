@@ -21,7 +21,8 @@
     height:22%;  
     padding-bottom: -10%;
     z-index: 2;
-    overflow: hidden;   
+    overflow: hidden; 
+    padding:0%;  
     
     
 } /*les ancres*/
@@ -38,9 +39,10 @@ nav li{
     
 
 } /* menu en ligne */
+
 nav li a{
     display: inline-block;
-    padding: 40px 15px;
+    padding: 10px 10px;
     color: #5C6668;
     text-decoration: none;
     font-size: 100%;
@@ -49,6 +51,12 @@ nav li a{
     
 } /* menu */ 
 
+/* survol souris*/
+a:hover{
+    background-color: #9E7174;
+    color:white;
+    border-radius:50%;
+}
 h1{
     font-family: Fredoka one;
     font-size: 100%;
@@ -67,11 +75,7 @@ nav h2{
     font-size: 100%;
 }
 
-a:hover{
-    background-color: #9E7174;
-    color:white;
-    border-radius:0%;
-}
+
  /*titre 2 header */
 
 section{

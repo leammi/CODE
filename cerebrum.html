@@ -9,8 +9,6 @@
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.lettering.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    
-    
 </head>
 
 <body>
@@ -18,18 +16,20 @@
     <!-- BARRE DE NAVIGUATION -->
     <nav class="fixed" >
         <img class="logo" src="logo.svg" alt="logo" />
-            <div id="title">
-                <h1>Cerebrum</h1>
-                <h2>Le cerveau, un labyrinthe complexe.</h2>
-            </div>
-            <ul>
-                <li><a href="#">Introduction</a></li>
-                <li><a href="#">Musique</a></li>
-                <li><a href="#">Drogue</a></li>
-                <li><a href="#">Effet d'optique</a></li>
-            </ul>
+        <div id="title">
+            <h1>Cerebrum</h1>
+            <h2>Le cerveau un labyrinthe complexe.</h2>
+        </div>
+        <ul>
+            <li><a href="#optique">Effet d'optique</a></li>
+            <li><a href="#top_dro">Drogue</a></li>
+            <li><a href="#top_mus">Musique</a></li>
+            <li><a href="#">Introduction</a></li>
+        </ul>
+    </div>
     </nav>
-    
+   
+    <img class="imgcerveau" src="cerveau-nav.png" alt="cerveau" />
 
     <section class="intro" data-midnight="intro">
         
@@ -38,7 +38,7 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent molestie vestibulum erat ac rhoncus. Aenean nunc risus, accumsan nec ipsum et, convallis sollicitudin dui. Proin dictum quam a semper malesuada. Etiam porta sit amet risus quis porta. Nulla facilisi. Cras at interdum ante. Ut gravida pharetra ligula vitae malesuada. </p>  
     </section>
 
-    <section class="Musique" data-midnight="musique">
+    <section id="top_mus" class="Musique" data-midnight="musique">
         <h2 id="titre_musique">La musique, oublier la fatigue et libérer la dopamine</h2>
 		<div class="textemusique">
         <p>La musique est un loisir très présent chez les jeunes grâce à la disponibilité mise en place des plateformes de streaming comme deezer, spotify, Youtube et SoundCloud. Cet intérêt pour un thème musical ou même la musique en général peut venir de sa famille, de ses amis ou de sa propre initiative.
@@ -58,7 +58,7 @@
 		
         
     </section>
-<div data-midnight="drogue">
+<div id="top_dro" data-midnight="drogue">
     <section class="drogue">
         <h2 class="tlt" data-in-effect="rollIn">Les effets de la drogue dans le cerveau</h2>
         <center><img class="img_drogue" src="perso logauche.svg" alt="img drogue"></center>
@@ -76,9 +76,15 @@
         D’autre part, lorsque l’on montre une simple image ou souvenir à une personne ayant déjà consommé une drogue, certaines zones du cerveau vont s’activer. Ces zones sont le circuit de la récompense qui va stimuler les neurones dopaminergiques, ce qui va créer une anticipation du plaisir et va repousser la personne à consommer à nouveau pour atteindre cette sensation de bonheur. On voit donc ici à quel point la mémoire de l’environnement de la prise de drogue est ancrée dans l’inconscient d’une personne dépendante.</p>
     </section>
 </div>
-    <section class="effet" data-midnight="effet">
+    <section id="optique" class="effet" data-midnight="effet">
         <h2>Les effets d'optique</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent molestie vestibulum erat ac rhoncus. Aenean nunc risus, accumsan nec ipsum et, convallis sollicitudin dui. Proin dictum quam a semper malesuada. Etiam porta sit amet risus quis porta. Nulla facilisi. Cras at interdum ante. Ut gravida pharetra ligula vitae malesuada. </p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed
+             lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate
+            diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim.
+            Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent molestie
+            vestibulum erat ac rhoncus. Aenean nunc risus, accumsan nec ipsum et, convallis sollicitudin dui.
+            Proin dictum quam a semper malesuada. Etiam porta sit amet risus quis porta. Nulla facilisi. Cras
+            at interdum ante. Ut gravida pharetra ligula vitae malesuada. </p>
     <img class="cerveaueffet" src="perso logo droite.svg" alt="logo cerveau">
     </section>
 
