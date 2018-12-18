@@ -20,8 +20,7 @@
     width: 100%;
     height:22%;  
     padding-bottom: -10%;
-    z-index: 2;
-    overflow: hidden;   
+    z-index: 2;  
     
     
 } /*les ancres*/
@@ -116,6 +115,7 @@ section h2{
     display: block;
     position: absolute;
     top: 100%;
+    height:100%;
 	padding-top:100px;
 }
 
@@ -178,16 +178,17 @@ section h2{
 
 .drogue { 
     width: 100%;
+    height:100%;
     background-color: #B9CDD6;
     font-family: Quicksand;
     display: block;
     position: absolute;
     top: 200%;
-	padding-top:3%;
+	padding-top:1%;
 } /*paragraphe drogue*/
 
 
-.cerveaueffet1{
+.img_drogue{
     max-width: 20%;
     float:right;
     padding-right:3%;
@@ -195,13 +196,17 @@ section h2{
 
 .drogue p {
     width: 90%;
+    font-size: 90%;
 }
 
 .drogue ol {
-	width: 75%;
 	line-height:1.5em;
 	margin-top:-2%;
-	margin-bottom: -2%;
+}
+
+.drogue li {
+    font-size: 90%;
+    margin-right: 10%;
 }
 
 /*SECTION LEA*/
