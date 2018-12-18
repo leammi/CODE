@@ -188,13 +188,13 @@ section h2{
 /*SECTION SEB*/
 
 .drogue { 
-
+    width: 100%;
     background-color: #B9CDD6;
     font-family: Quicksand;
     display: block;
     position: absolute;
     top: 200%;
-	padding-top:100px;
+	padding-top:3%;
 } /*paragraphe drogue*/
 
 
@@ -205,13 +205,12 @@ section h2{
 } /* image drogue */
 
 .drogue p {
-    width: 75%;
+    width: 90%;
 }
 
 .drogue ol {
 	width: 75%;
 	line-height:1.5em;
-	margin-left:3%;
 	margin-top:-2%;
 	margin-bottom: -2%;
 }
