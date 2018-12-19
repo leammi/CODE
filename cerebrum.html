@@ -6,9 +6,11 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa|Fredoka+One|Quicksand" rel="stylesheet">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/jquery.lettering.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="js/midnight.jquery.min.js"></script>
+    <script src="js/jquery.slides.min.js"></script>
+
+
 </head>
 
 <body>
@@ -33,6 +35,13 @@
         
         <h2>Introduction</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam et fermentum dui. Ut orci quam, ornare sed lorem sed, hendrerit auctor dolor. Nulla viverra, nibh quis ultrices malesuada, ligula ipsum vulputate diam, aliquam egestas nibh ante vel dui. Sed in tellus interdum eros vulputate placerat sed non enim. Pellentesque eget justo porttitor urna dictum fermentum sit amet sed mauris. Praesent molestie vestibulum erat ac rhoncus. Aenean nunc risus, accumsan nec ipsum et, convallis sollicitudin dui. Proin dictum quam a semper malesuada. Etiam porta sit amet risus quis porta. Nulla facilisi. Cras at interdum ante. Ut gravida pharetra ligula vitae malesuada. </p>  
+
+            <div id="slides">              
+                <img src="intro-musique.png">
+                <img src="intro-drogue.png">
+                <img src="intro-effet.png">
+            </div>
+
     </section>
 
     <section id="top_mus" class="Musique" data-midnight="musique">
@@ -56,7 +65,7 @@
 
     <section class="drogue" id="top_dro" data-midnight="drogue">
         <h2 class="tlt" data-in-effect="rollIn">Les effets de la drogue dans le cerveau</h2>
-        <img class="img_drogue" src="res/svg/logauche.svg" alt="img drogue">
+        <img class="img_drogue" src="perso logauche.svg" alt="img drogue">
         <p>Tous produits qui déclenchent une dépendance chez l’Homme est considéré comme une drogue. Comme l’alcool, le tabac, les médicaments psychoactifs, la cocaïne, l’exctasy, l’héroine ou bien encore d’autres drogues. Chacune de ces substances produisent un déclenchement de dopamine relâché dans le cerveau, le circuit de la récompense. 
         Chacune de ces drogues auront des effets différents sur le cerveau, mais elles vont simuler la substance produite naturellement par l’organisme pour se fixer à la place de celle-ci sur des récepteurs bien spécifiques.
         On peut identifier 3 modes d’actions de ces différentes drogues :</p> 
@@ -102,5 +111,15 @@
               $('nav.fixed').midnight();
             });
         </script>
-    
+     <!-- script Slitder -->
+
+    <script>
+    $(function(){
+      $("#slides").slidesjs({
+        width: 510,
+        height: 170
+
+      });
+    });
+  </script>
 </body>

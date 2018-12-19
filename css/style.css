@@ -109,23 +109,16 @@ section h2{
     background-color: white;
     top: 15%;
 }
+#slides {
+  display: none;
+  width:65%;
+  margin-left: 20%;
 
-div#slider{
-    width:80%;
-    max-width: 1000px;
-}
-div#slider figure{
-    position: relative;
-    width: 300%;
-    margin: 0;
-    padding: 0;
 }
 
-div#slider figure img{
-    width: 33%;
-    height: auto;
-    float: left;
-}
+
+
+
 
 /*SECTION GREG*/
 .Musique{
