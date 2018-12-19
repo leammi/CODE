@@ -118,17 +118,8 @@ section h2{
     position: absolute;
     top: 100%;
     height:100%;
-	padding-top:1%;
+	padding-top: 100px;
 }
-
-/*.imgpartmusique {
-	padding:4px;
-    text-align: center;
-	float: left;
-	max-width: 22%;
-	max-height: 22%;
-	margin-left: 3%;
-}*/
 
 .textemusique1{
 	top: 25%;
