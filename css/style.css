@@ -18,8 +18,7 @@
     position:fixed;
     background: #BBCDD6;
     width: 100%;
-    height:22%;  
-    padding-bottom: -10%;
+    height:22%;
     z-index: 2;  
     
     
@@ -40,7 +39,7 @@ nav li{
 
 nav li a{
     display: inline-block;
-    padding: 10px 10px;
+    padding: 15px 10px;
     color: #5C6668;
     text-decoration: none;
     font-size: 100%;
@@ -53,7 +52,6 @@ nav li a{
 a:hover{
     background-color: #9E7174;
     color:white;
-    border-radius:50%;
 }
 h1{
     font-family: Fredoka one;
